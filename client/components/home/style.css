@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+#home {
+	background: linear-gradient(-45deg, rgb(128,130,145),rgb(171,135,139), rgb(46,59,94), rgb(14,33,49));
+	background-size: 200% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

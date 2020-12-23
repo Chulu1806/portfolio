@@ -1,0 +1,16 @@
+{
+  "hi": "Hi",
+  "presentation":"my name is",
+  "do": "and I'm a Web developper",
+  "skills": "Skills",
+  "education": "Education",
+  "UCBL": "Claude Bernard University Lyon 1",
+  "UCB": "Bolivian Catholic University",
+  "licence" : "Bachelor's degree",
+  "master": "Master's degree",
+  "TIW": "Technologies de l'Information et Web",
+  "informatique": "Computer Science",
+  "systemas": "Systems Engineering",
+  "internship": "Internship",
+  "orange": "During a three months internship. I had the opportunity to develop an audit tool using a PHP framework ."
+}

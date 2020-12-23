@@ -1,0 +1,16 @@
+{
+  "hi": "Bonjour",
+  "presentation":"je m'appelle",
+  "do": "et je suis une developpeuse web",
+  "skills": "Compétences",
+  "education": "Education",
+  "UCBL": "Université Claude Bernard Lyon 1",
+  "UCB": "Université Catholique Bolivienne",
+  "licence" : "Licence",
+  "master": "Master",
+  "TIW": "Technologies de l'Information et Web",
+  "informatique": "Informatica",
+  "systemas": "Ingénierie des Systèmes",
+  "internship": "Stage",
+  "orange": "Pendant les trois mois de stage. J'ai eu l'oppportunité de developper ou outil de verification avec un framework maison en PHP."
+}
