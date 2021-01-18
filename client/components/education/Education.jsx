@@ -1,34 +1,23 @@
-import React from 'react';
-import {
-  Box, Grid, Typography,
-} from '@material-ui/core';
-import '../../App.css';
-import { useTranslation } from 'react-i18next';
+import React, { useState } from 'react';
+import { Box } from '@material-ui/core';
+import VisibilitySensor from 'react-visibility-sensor';
 import educationList from './educationList';
 import Content from './Content';
 
-const font = "'Amatic SC', bold";
-
 function Education() {
-  const { t } = useTranslation();
+  const [visible, setVisible] = useState(false);
+
+  const onChange = (isVisible) => {
+    setVisible(isVisible);
+  };
 
   return (
-    <Box>
-      <Grid container alignItems="center">
-        <Grid item sm={1}>
-          <Typography
-            variant="h4"
-            style={{
-              fontFamily: font, textOrientation: 'upright', writingMode: 'vertical-rl',
-            }}
-          >
-            <b>{(t('education')).toUpperCase()}</b>
-          </Typography>
-        </Grid>
-        <Grid item sm={10}>
-          {educationList.map((e) => <Content key={e.id} item={e} />)}
-        </Grid>
-      </Grid>
+    <Box p={6}>
+      <VisibilitySensor onChange={onChange} partialVisibility="bottom" offset={{ bottom: 0 }}>
+        <Box>
+          {educationList.map((e) => <Content key={e.id} item={e} visible={visible} />)}
+        </Box>
+      </VisibilitySensor>
     </Box>
   );
 }

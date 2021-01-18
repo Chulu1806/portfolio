@@ -1,5 +1,6 @@
 import Orange from '../../assets/orange.png';
 import VideoChat from '../../assets/videochat.png';
+import Geolocalisation from '../../assets/geolocalisation.png';
 
 export default [
   {
@@ -14,7 +15,15 @@ export default [
     title: 'Video Chat',
     section: 'ReactJS, PeerJS',
     img: VideoChat,
-    link: 'http://tiw8-chat.herokuapp.com/',
+    work: 'videochat',
+    link: 'https://tiw8-chat.herokuapp.com/',
   },
-
+  {
+    id: 2,
+    title: 'Geolocalisation Game',
+    section: 'VueJS',
+    img: Geolocalisation,
+    work: 'geolocalisation',
+    link: 'https://geolocalisation-game.herokuapp.com/',
+  },
 ];

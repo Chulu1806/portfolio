@@ -2,6 +2,7 @@
   "hi": "Hi",
   "presentation":"my name is",
   "do": "and I'm a Web developper",
+  "home": "Home",
   "skills": "Skills",
   "education": "Education",
   "UCBL": "Claude Bernard University Lyon 1",
@@ -12,5 +13,8 @@
   "informatique": "Computer Science",
   "systemas": "Systems Engineering",
   "internship": "Internship",
-  "orange": "During a three months internship. I had the opportunity to develop an audit tool using a PHP framework ."
+  "orange": "During a three months internship. I had the opportunity to develop an audit tool using a PHP framework .",
+  "videochat": "As a project for the university. A collegue and I created a Video Chat beetween two users",
+  "geolocalisation": "As a project for the university. I created a geolocalization game where users had to chase targets around them defined by red spots.",
+  "link": "Watch me"
 }

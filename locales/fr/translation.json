@@ -2,6 +2,7 @@
   "hi": "Bonjour",
   "presentation":"je m'appelle",
   "do": "et je suis une developpeuse web",
+  "home": "Accueil",
   "skills": "Compétences",
   "education": "Education",
   "UCBL": "Université Claude Bernard Lyon 1",
@@ -12,5 +13,8 @@
   "informatique": "Informatica",
   "systemas": "Ingénierie des Systèmes",
   "internship": "Stage",
-  "orange": "Pendant les trois mois de stage. J'ai eu l'oppportunité de developper ou outil de verification avec un framework maison en PHP."
+  "orange": "Pendant trois mois de stage. J'ai eu l'opportunite de developper un outil de verification sur un framework-maison fait en PHP.",
+  "videochat": "Projet pour l'universite. En binome, on a cree une application de video-chat entre deux utilisateurs",
+  "geolocalisation": "Projet pour l'universite. J'ai cree un jeu de geolocalicacion ou les joueurs doivent s'appocher des cibles pour gagner.",
+  "link": "Regarde moi"
 }

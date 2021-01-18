@@ -4,7 +4,7 @@ import { Box, Grid } from '@material-ui/core';
 import Duration from './Duration';
 import Formation from './Formation';
 
-function Content({ item }) {
+function Content({ item, visible }) {
   const isLeft = item.id % 2 === 0;
   return (
     <Box m={2}>
@@ -13,13 +13,13 @@ function Content({ item }) {
           <Box m={3}>
             { isLeft
               ? <Duration item={item} position="right" />
-              : <Formation item={item} position="right" />}
+              : <Formation item={item} position="right" visible={visible} />}
           </Box>
         </Grid>
         <Grid item sm={6}>
           <Box m={3}>
             { isLeft
-              ? <Formation item={item} position="left" />
+              ? <Formation item={item} position="left" visible={visible} />
               : <Duration item={item} position="left" />}
           </Box>
         </Grid>
@@ -39,4 +39,5 @@ Content.propTypes = {
     start: PropTypes.number,
     end: PropTypes.number,
   }).isRequired,
+  visible: PropTypes.bool.isRequired,
 };

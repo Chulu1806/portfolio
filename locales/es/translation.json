@@ -1,7 +1,8 @@
 {
   "hi": "Hola",
-  "presentation":"mi nombre es",
+  "presentation":"me llamo",
   "do": "y soy una desarrolladora web",
+  "home": "Inicio",
   "skills": "Conocimientos",
   "education": "Educación",
   "UCBL": "Universidad Claude Bernard Lyon 1",
@@ -12,5 +13,8 @@
   "informatique": "Informática",
   "systemas": "Ingeniería de Systemas",
   "internship": "Pasantía",
-  "orange": "Durante los tres meses de pasantía. Tuve la oportunidad de desarrollar una herramienta de verificacion en un framework PHP de la empresa."
+  "orange": "Durante los tres meses de pasantía. Tuve la oportunidad de desarrollar una herramienta de verificacion en un framework PHP de la empresa.",
+  "videochat": "Proyecto para la Universidad. Con la ayuda de un colega creamos una applicacion de video-chat entre dos usuarios",
+  "geolocalisation": "Proyecto para la Universidad. Cree un juego de geolocalicacion donde los jugadores deben aproximarse a los objetivos para ganar.",
+  "link": "Mirame"
 }

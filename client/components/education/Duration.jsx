@@ -1,14 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Box, Typography } from '@material-ui/core';
-import '../../App.css';
-
-const font = "'News Cycle', bold";
 
 function Duration({ item, position }) {
   return (
     <Box>
-      <Typography variant="subtitle1" align={position} style={{ fontFamily: font }}>
+      <Typography variant="subtitle1" align={position}>
         {`${item.start} - ${item.end}`}
       </Typography>
     </Box>
